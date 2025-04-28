@@ -1,0 +1,48 @@
+# Terraform files
+*.tfstate
+*.tfstate.*
+*.tfvars
+*.tfvars.json
+.terraform/
+terraform.tfstate
+terraform.tfstate.backup
+
+# .terraform directories
+.terraform/*
+
+# Crash log files
+crash.log
+
+# Local override files (useful for development purposes)
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Plugin directory
+.terraform.d/
+
+# IDE or editor files
+# VS Code
+.vscode/
+
+# Linux specific files
+*.swp
+
+# Cloud platform specific
+.aws/
+aws/
+*.aws-sdk
+*.aws-session
+*.pem
+
+
+# Virtual environment
+venv/
+.venv/
+# Python specific
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
